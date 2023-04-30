@@ -5,7 +5,7 @@ import './index.css';
 
 import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
-import globalReducer from 'state';
+import globalReducer from './state';
 
 const store = configureStore({
   reducer: {
